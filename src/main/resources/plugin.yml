@@ -4,3 +4,17 @@ main: me.pizza_nachos.bluefire.court.Court
 api-version: 1.13
 authors: [Pizza_Nachos, Coedster]
 description: Plugin Implenting a court system
+depend: [Vault]
+commands:
+    sue:
+      description: Sue a player
+      usage: /sue <player> <reason> <ammount>
+    courtvote:
+      description: Vote in a court session
+      usage: /courtvote <prosecuter/defendent>
+    courttally:
+      description: tallies the court and ends the court
+      usage: /courttally
+    courtaddjudge:
+      description: adds judges to the list of possible judges
+      usage: /courtaddjudge <player>
