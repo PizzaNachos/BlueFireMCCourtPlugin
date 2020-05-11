@@ -1,0 +1,6 @@
+name: Court
+version: 1.0-SNAPSHOT
+main: me.pizza_nachos.bluefire.court.Court
+api-version: 1.13
+authors: [Pizza_Nachos, Coedster]
+description: Plugin Implenting a court system
