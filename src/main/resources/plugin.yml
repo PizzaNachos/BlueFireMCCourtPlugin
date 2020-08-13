@@ -8,13 +8,27 @@ depend: [Vault]
 commands:
     sue:
       description: Sue a player
-      usage: /sue <player> <reason> <ammount>
+      usage: /sue <player> <reason> <amount>
     courtvote:
       description: Vote in a court session
       usage: /courtvote <prosecuter/defendent>
-    courttally:
-      description: tallies the court and ends the court
-      usage: /courttally
-    courtaddjudge:
-      description: adds judges to the list of possible judges
-      usage: /courtaddjudge <player>
+    callvote:
+      description: Judge calls on the jury to vote
+      usage: /callvote
+    seeJudges:
+      description: prints list of possible judges
+      usage: /seeJudges
+    courtyes:
+      description: Judge decides to hear a case
+      usage: /courtyes
+    courtno:
+      description: Judge decides to not hear a case
+      usage: /courtno
+    setCourtLocation:
+      description: Sets the court location to the location of current judge
+      usage: /setCourtLocation
+    courtreload:
+      description: reloads the config file
+    addjudge:
+      description: Adds a judge to the list of possible judges
+      usage: /addjudge <player name>
